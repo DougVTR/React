@@ -17,6 +17,18 @@ export function Footer() {
                     <li><a href="/">日本語</a></li>
                     <li><a href="/"></a></li>
                 </ul>
+                <select name="mobileLang" id="mobileLang">
+                    <option value="Portugues Brasil">Portugues (Brasil)</option>
+                    <option value="English US">English (US)</option>
+                    <option value="Espanol">Español</option>
+                    <option value="Francais France">Français (France)</option>
+                    <option value="Italiano">Italiano</option>
+                    <option value="Deutsch">Deutsch</option>
+                    <option value=">العربية">العربية</option>
+                    <option value="हिन्दी">हिन्दी</option>
+                    <option value="中文 简体">中文(简体)</option>
+                    <option value="日本語">日本語</option>
+                </select>
                 <div className="stroke"></div>
                 <ul className="links"> {/*Links úteis relacionados ao site*/}
                     <li><a href="https://www.facebook.com/reg/">Cadastre-se</a></li>

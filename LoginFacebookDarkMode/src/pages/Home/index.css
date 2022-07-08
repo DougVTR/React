@@ -36,3 +36,13 @@ body {
     background-color: black;
     color: white;
 }
+@media (max-width: 1650px){
+    .infoMeio{
+        width: 45%;
+    }
+}
+@media (max-width: 1150px){
+    .infoMeio{
+        display: none;
+    }
+}

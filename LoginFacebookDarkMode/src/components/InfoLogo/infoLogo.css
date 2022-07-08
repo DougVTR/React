@@ -3,3 +3,8 @@ h1 {
     font-weight: normal;
     line-height: 32px;
 }
+@media (max-width: 1150px){
+    .infoSection{
+        display: none;;
+    }
+}

@@ -58,3 +58,13 @@ footer{
     width: 40vh;
     height: 6vh;
 }
+@media (max-width: 1150px) {
+    #conteudoPrincipal{
+        width: 100%;
+    }
+}
+@media (max-width: 710px) {
+    #conteudoPrincipal{
+        width: 100%;
+    }
+}

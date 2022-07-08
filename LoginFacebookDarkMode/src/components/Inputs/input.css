@@ -105,3 +105,32 @@
     justify-content: center;
     display: flex;
 }
+@media (max-width: 1580px){
+#campoDadosLogin{
+    width: 35%;
+}
+}
+@media (max-width: 1190px) {
+    #campoDadosLogin{
+        width: 60%;
+    }
+}
+@media (max-width: 950px) {
+    #campoDadosLogin{
+        margin: 0;
+        padding: 0;
+        width: 80%;
+    }
+    .inputArea {
+        margin: 0;
+    }
+}
+@media (max-width: 710px) {
+    #campoDadosLogin{
+        width: 100%;
+        
+    }
+    .stroke{
+        width: 99%;
+    }
+}
