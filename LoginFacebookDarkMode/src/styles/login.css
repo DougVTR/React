@@ -1,0 +1,60 @@
+
+#faceLogo{
+    width: 11%;
+}
+#conteudoPrincipal{
+    width: 70%;
+    height: 100vh;
+    border: 1px solid green;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+
+}
+footer{
+    width: 70%;
+    flex-wrap: wrap;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.listaLinguas, .links{
+    display: flex;
+    
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    flex-wrap: wrap;
+    list-style-type: none;
+}
+.pagina, body{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.stroke{
+    height: 1px;
+    width: 100%;
+    background-color: blue;
+
+}
+#campoDadosLogin{
+    width: 60%;
+    height: 45%;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid red;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 1.8%;
+}
+#login, #senha{
+    border-radius: 7px;
+    border: 1px solid;
+    display: flex;
+    margin-bottom: 2.5%;
+    width: 40vh;
+    height: 6vh;
+}
