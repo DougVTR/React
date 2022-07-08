@@ -1,0 +1,38 @@
+#conteudoPrincipal {
+    width: 70%;
+    height: 95vh;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    flex-wrap: wrap;
+}
+
+.pagina,
+body {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.meio {
+    padding-bottom: 5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.infoMeio {
+    width: 50%;
+}
+
+#faceLogo {
+    width: 43%;
+    margin-bottom: 2.5%;
+}
+
+.pagina {
+    background-color: black;
+    color: white;
+}
