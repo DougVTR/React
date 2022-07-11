@@ -106,7 +106,7 @@
     display: flex;
     width: auto;
 }
-
+/*Recursividade*/
 @media (max-width: 1200px) {
     #campoDadosLogin{
         width: 45%;

@@ -39,7 +39,7 @@ a {
     color: #ffffff81;
     text-decoration: none;
 }
-
+/*Recursividade*/
 @media (max-width: 1400px) {
     .links {
         display: none;
