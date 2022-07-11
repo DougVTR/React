@@ -24,6 +24,8 @@ body {
 }
 
 .infoMeio {
+    display: flex;
+    flex-wrap: wrap;
     width: 50%;
 }
 
@@ -36,13 +38,26 @@ body {
     background-color: black;
     color: white;
 }
-@media (max-width: 1650px){
+@media (max-width: 1400px){
     .infoMeio{
         width: 45%;
     }
 }
 @media (max-width: 1150px){
-    .infoMeio{
-        display: none;
+.meio{
+    flex-direction: column;
+    justify-content: center;
+}
+#faceLogo{
+    width: 100%;
+}
+    
+}
+@media (max-width: 415px){
+    
+    #conteudoPrincipal{
+        flex-direction: column;
+        justify-content: center;
+        width: 100%;
     }
 }

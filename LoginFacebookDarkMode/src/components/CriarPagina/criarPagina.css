@@ -1,7 +1,8 @@
 #criarPagina {
-    margin: 2% 5% 0 57%;
+    margin: 2% 5% 0 59%;
     flex-wrap: wrap;
-    width: 100%;
+    width: 35%;
+    min-width: 35%;
     display: flex;
     justify-content: center;
 }
